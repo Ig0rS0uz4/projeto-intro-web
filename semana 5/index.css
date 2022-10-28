@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+header{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 8%, rgba(178,116,0,1) 86%, rgba(235,153,0,1) 100%);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: antiquewhite;
+    width: 100vw;
+    height: 100px;
+    text-align: center;
+    border-bottom: 2px solid antiquewhite;
+    border-radius: 0px 0px 50px 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+h1{
+    padding: 25px;
+}
+main{
+    height: 100vh;
+    width: 1200px;
+    background-color: #303030;
+
+    border: 3px solid #C89B02;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav{
+    position: relative;
+    height: 500px;
+    background: #303030;
+    width: 200px;
+    box-shadow: 10px 0 0 #C89B02;
+}
+nav ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 40px;
+}
+nav ul li{
+    position: relative;
+    list-style: none;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+nav ul li a{
+    position: relative;
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    padding-left: 50px;
+}
+nav ul li.active{
+    background: #C89B02;
+}
+
+.lista-musicas{
+    display: flex;
+    gap: 100px;
+}
+.album1{
+    height: 500px;
+    width: 200px;
+    color: white;
+}
+.album2{
+    height: 500px;
+    width: 200px;
+    color: white;
+}
+.album3{
+    height: 500px;
+    width: 200px;
+    color: white;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 8%, rgba(178,116,0,1) 86%, rgba(235,153,0,1) 100%);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: antiquewhite;
+    width: 100vw;
+    height: 100px;
+    text-align: center;
+    border-bottom: 2px solid antiquewhite;
+    border-radius: 0px 0px 50px 50px;
+}
